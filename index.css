@@ -4,17 +4,23 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100vw;
-  height: 100vh;
+
   font-family: -apple-system, "Open Sans", BlinkMacSystemFont, "Segoe UI",
     Roboto, Oxygen, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 
   color: white;
 }
 
+.js-form {
+  margin: 40px 0px;
+}
+
 .form,
 .greetings {
   display: none;
+}
+
+.greetings {
   font-size: 30px;
   background-color: rgba(150, 150, 150, 0.5);
   border-radius: 4px;
@@ -45,6 +51,7 @@ body {
 
 .js-clock {
   font-size: 36px;
+  margin-top: 60px;
 }
 
 .js-toDoForm input {

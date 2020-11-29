@@ -1,6 +1,6 @@
 const body = document.querySelector("body");
 
-const IMG_NUMBER =4;
+const IMG_NUMBER =6;
 
 function handleImageLoad(){
     console.log("finished loading");
